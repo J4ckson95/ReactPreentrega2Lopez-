@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 600px;
+    border: 1px solid red;
+    margin: 1em auto;
+}
+
+.button_count {
+    padding: .8em;
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    font-size: 1em;
+    color: white;
+    background-color: deeppink;
+    border-radius: 10px;
+}
+
+img {
+    width: 30px;
+}
+
+p {
+    color: black;
+}
