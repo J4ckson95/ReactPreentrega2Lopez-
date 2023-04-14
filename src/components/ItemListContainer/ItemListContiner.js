@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ItemList from '../ItemList/ItemList';
-import { getProducts, getProductsByCategory } from '../../services/getData';
+import { getProducts, getProductsByCategory } from '../../services/async-mocks';
 import { useParams } from 'react-router-dom';
 import Styled from "./itemlistcontainer.module.css"
 
