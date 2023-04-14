@@ -1,7 +1,7 @@
 import React from 'react'
 import Styled from "./itemdetail.module.css"
 import ItemCount from "../ItemCount/ItemCount"
-const ItemDeatil = ({ id, name, img, price, stock, category }) => {
+const ItemDeatil = ({ id, name, img, price, description, category }) => {
     return (
         <article className={Styled.container}>
             <header>
@@ -11,9 +11,10 @@ const ItemDeatil = ({ id, name, img, price, stock, category }) => {
                 <img className={Styled.picture} src={img} alt={name}></img>
             </picture>
             <section>
-                <p>Precio : {price}</p>
                 <p>Categoria : {category}</p>
-                <p>Stock disponible: {stock}</p>
+                <p>Descripción : {description}</p>
+                <p>Precio : {price}</p>
+
             </section>
             <footer>
                 <ItemCount initial={0} stock={10} onAdd={(quantity) => console.log(quantity)}></ItemCount>
