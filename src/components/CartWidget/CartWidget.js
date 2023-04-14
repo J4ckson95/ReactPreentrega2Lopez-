@@ -4,8 +4,8 @@ import Styled from "./cartwidget.module.css"
 const CartWidget = () => {
     return (
         <div className={Styled.container}>
-            <img src={cart}></img>
-            <p>0</p>
+            <img className={Styled.img} src={cart}></img>
+            <p className={Styled.text}>0</p>
         </div>
     )
 

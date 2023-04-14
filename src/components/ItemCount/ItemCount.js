@@ -13,7 +13,7 @@ const ItemCount = ({ initial, stock, onAdd }) => {
         <div className={Styled.box}>
             <div className={Styled.container}>
                 <button className={Styled.button_count} onClick={Decrement}>-</button>
-                <h4>{quantity}</h4>
+                <h4 className={Styled.text}>{quantity}</h4>
                 <button className={Styled.button_count} onClick={Increment}>+</button>
             </div>
             <div>
